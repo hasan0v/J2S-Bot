@@ -1,0 +1,641 @@
+{
+  "business_information": {
+    "name": "Journey to STEAM",
+    "website": "https://journeytosteam.com",
+    "tagline": "Empower the Next Generation of Innovators",
+    "description": "Journey to STEAM is your reliable go-to provider for hands-on robotics, coding, and LEGO education programs for kids ages 5-12. Perfect for enriching camps, after-school experiences, and fostering holistic learning in schools.",
+    "founded": "2023",
+    "founder": "Dr. Arielle Hammond",
+    "ein": "83-2697968",
+    "contact": {
+      "email": "getintouch@journeytosteam.com",
+      "phone": "(503) 506-3287",
+      "phone_alternate": "(971) 258-2178"
+    },
+    "service_areas": [
+      "Clackamas County, Oregon",
+      "Multnomah County, Oregon",
+      "Washington County, Oregon",
+      "Clark County, Washington",
+      "Portland Metro Area"
+    ],
+    "social_media": {
+      "facebook": "https://www.facebook.com/profile.php?id=61551157700901",
+      "instagram": "https://www.instagram.com/journeytosteam/"
+    }
+  },
+  "mission_vision_values": {
+    "purpose": "We exist to empower every child to become a confident innovator, creative thinker, and empathetic leader. By blending rigorous academic standards with playful, hands-on activities, we inspire students to explore boldly and discover their potential.",
+    "mission": "To deliver rigorous, cutting-edge STEAM education that empowers children to become future creators and innovators. Every lesson integrates hands-on exploration, emerging technology, and collaborative projects, giving students the thrill of discovery and the reward of deep, meaningful learning.",
+    "vision": "We envision a future where every child feels empowered to dream big, tackle real-world challenges, and confidently chart their own path in an ever-evolving world.",
+    "core_values": [
+      {
+        "value": "Joy",
+        "description": "Learning should always be fun and inspiring, igniting curiosity and excitement in every child."
+      },
+      {
+        "value": "Innovation",
+        "description": "We use the latest technology and creative ideas to help kids think differently and solve real-world problems."
+      },
+      {
+        "value": "Collaboration",
+        "description": "Teamwork and communication are central to our approach, teaching children how to build on each other's strengths and thrive together."
+      }
+    ],
+    "team_values": [
+      {
+        "value": "Act Like Owners",
+        "description": "We take pride in our work, represent the brand, and build for the long term. We hustle, lead, and care like it's ours, because it is."
+      },
+      {
+        "value": "Learn Fast, Improve Always",
+        "description": "We stretch ourselves, solve problems, and get better every day. We don't wait for answers, we find them. We take initiative, learn quickly, and turn every challenge into progress."
+      },
+      {
+        "value": "Celebrate Our Wins",
+        "description": "We take time to recognize progress, results, and each other. Every win matters and fuels the next one."
+      },
+      {
+        "value": "Share the Load",
+        "description": "We spread the work, support each other, and make sure nothing falls through. We help without being asked and ask for help when we need it. We get it done, together."
+      },
+      {
+        "value": "Protect Our Positivity",
+        "description": "We bring optimism, kindness, and good energy to everything we do. No negativity, no drama. We're a team that lifts each other up and focuses on what matters."
+      }
+    ],
+    "promise": [
+      "We Listen: Every child and school district has unique needs. We collaborate closely to meet specific goals, from improving test scores to inspiring career interests.",
+      "We Keep it Fun & Rigorous: Our programs blend playful discovery with strong academic standards, ensuring deep learning and genuine enjoyment.",
+      "We Foster Relationships: We build lasting partnerships rooted in trust, quality, and continuous support, whether serving one classroom or an entire district."
+    ]
+  },
+  "founder_story": {
+    "background": "Dr. Arielle Hammond is a local mom and longtime school principal with over a decade of experience leading schools, coaching teachers, and designing curriculum.",
+    "motivation": "As a mother, Dr. Arielle wanted her children to fall in love with STEM from the very beginning. She and her husband dreamed that their children would one day reach for the stars (literally - becoming astronauts has always been part of the family plan). When she searched for programs that were hands-on, rigorous, joyful, and truly designed to unlock that kind of potential, nothing measured up. So she created the program she wished existed.",
+    "philosophy": "Every lesson had to be something she'd be proud to give her own children. That blend—the precision of an educator and the heart of a parent—is what shapes Journey to STEAM today.",
+    "hiring_standards": "We hire fewer than 10 percent of applicants, bringing on experienced educators and STEM professionals who see brilliance in every child. Each instructor receives hands-on training and coaching from Dr. Arielle to ensure that every classroom is a safe, joyful, structured, and truly enriching environment."
+  },
+  "target_audience": {
+    "students": {
+      "age_range": "5-12 years old",
+      "grades": "K-8 (Kindergarten through 8th grade)",
+      "description": "Elementary and middle school students"
+    },
+    "parents": {
+      "description": "Parents of children ages 5-12 looking for high-quality STEM enrichment programs",
+      "pain_points": [
+        "Worried their child isn't getting enough from school",
+        "Want hands-on, future-ready education",
+        "Need convenient after-school care and enrichment",
+        "Looking for programs that combine fun with rigorous learning"
+      ]
+    },
+    "schools": {
+      "description": "School leaders, principals, PTOs, and enrichment coordinators",
+      "pain_points": [
+        "Struggling to retain students who are moving to neighboring districts",
+        "Addressing declining test scores and student engagement",
+        "Adapting to evolving educational standards and technologies",
+        "Maintaining school reputation and community trust",
+        "Ensuring equitable access to enrichment opportunities despite budget constraints"
+      ]
+    }
+  },
+  "program_types": [
+    {
+      "type": "After-School Programs",
+      "description": "Weekly one-hour sessions over eight weeks, tailored to school calendars",
+      "format": "8 sessions, once per week, 1 hour per session",
+      "location": "On-campus at elementary schools",
+      "benefits": [
+        "Convenient schedule aligned with school calendar",
+        "No transportation required - hosted on campus",
+        "Hands-on LEGO-based learning",
+        "Complements instructional goals and college/career readiness",
+        "Supports working families with structured after-school activities"
+      ]
+    },
+    {
+      "type": "Camps",
+      "description": "Intensive STEAM camp experiences during school breaks",
+      "format": "One week duration, 3-4 hours per session",
+      "location": "Elementary and middle schools, community centers",
+      "benefits": [
+        "Deep-dive learning experiences",
+        "Extended hands-on project time",
+        "Combines multiple STEAM disciplines",
+        "Fun and engaging during school breaks"
+      ]
+    },
+    {
+      "type": "School Partnerships",
+      "description": "Customized STEAM programs for schools and districts",
+      "benefits": [
+        "Turnkey K-8 STEM & STEAM programs",
+        "Boost achievement levels",
+        "Enhance school reputation",
+        "Make equity real and visible",
+        "Zero added workload for school staff"
+      ]
+    }
+  ],
+  "program_pathways": [
+    {
+      "pathway_name": "Invent, Engineer, and Program: A Future Engineer's Journey",
+      "description": "This dynamic STEAM pathway introduces participants to coding, robotics, game design, and engineering. With every project, they explore new possibilities while building a strong foundation for creative and technical thinking.",
+      "classes": [
+        "Intro to Scratch Jr",
+        "Intro to Scratch",
+        "LEGO Mechanical Engineers",
+        "LEGO Inventors",
+        "LEGO Architects",
+        "LEGO Game Makers",
+        "Intro Robotics: Outdoor Adventures",
+        "Intro Robotics: Amazing Amusement Park (Camp)",
+        "LEGO Toy Designers (Camp)",
+        "Intro to Scratch Camp"
+      ]
+    },
+    {
+      "pathway_name": "Build, Program, and Innovate with LEGO: A Future Robotics Engineer's Journey",
+      "description": "Young engineers explore robotics with LEGO Spike, designing and programming functional robots to solve creative challenges.",
+      "classes": [
+        "Intro Robotics: Outdoor Adventures",
+        "Intro Robotics: Amazing Amusement Park",
+        "Robotics Career Connections",
+        "Level Up Robotics: Prime Inventions",
+        "Level Up Robotics: Prime Challenges",
+        "Next Level Robotics: Carnival Games",
+        "Next Level Robotics: Busy Cities"
+      ]
+    },
+    {
+      "pathway_name": "Design, Build, and Invent with LEGO: A Future Mechanical Engineer's Journey",
+      "description": "Hands-on LEGO projects introduce mechanical engineering through play, invention, and real-world problem solving.",
+      "classes": [
+        "LEGO Game Makers",
+        "LEGO Inventors",
+        "LEGO Mechanical Engineers",
+        "LEGO Toy Designers",
+        "LEGO Artists",
+        "LEGO Architects"
+      ]
+    },
+    {
+      "pathway_name": "Invent, Code, and Play: A Future Game Developer's Journey",
+      "description": "Combining physical and digital game design, students develop storytelling, logic, and user-centered design through creative projects.",
+      "classes": [
+        "Intro to Scratch Jr",
+        "Intro to Scratch",
+        "Intro to Scratch Camp",
+        "Scratch Game Developers",
+        "LEGO Game Makers",
+        "Next Level Robotics: Carnival Games"
+      ]
+    },
+    {
+      "pathway_name": "Invent, Engineer, and Program: A Future Engineer's Journey (Camp Edition)",
+      "description": "Camp-based STEAM experiences that combine hands-on learning, creativity, and technical skills across engineering, coding, and design.",
+      "classes": [
+        "Intro to Scratch Camp",
+        "Intro Robotics: Amazing Amusement Park",
+        "LEGO Artists",
+        "LEGO STEAM Explorers",
+        "LEGO Toy Designers"
+      ]
+    },
+    {
+      "pathway_name": "Imagine, Code, and Create: A Future Software Developer's Journey",
+      "description": "Young coders bring animations, games, and stories to life through Scratch, building logic, creativity, and coding skills.",
+      "classes": [
+        "Intro to Scratch Jr",
+        "Intro to Scratch",
+        "Intro to Scratch Camp",
+        "Scratch Game Developers",
+        "Level Up Scratch: Advanced Challenges",
+        "Intro to Text-Based Coding (Coming Soon)"
+      ]
+    }
+  ],
+  "steam_components": {
+    "S": {
+      "name": "Science",
+      "description": "Hands-on scientific exploration and experimentation"
+    },
+    "T": {
+      "name": "Technology",
+      "description": "Coding, robotics, and emerging technologies"
+    },
+    "E": {
+      "name": "Engineering",
+      "description": "Design thinking, problem-solving, and building solutions"
+    },
+    "A": {
+      "name": "Arts",
+      "description": "Creative expression and design integrated with STEM"
+    },
+    "M": {
+      "name": "Math",
+      "description": "Mathematical thinking and computational logic"
+    }
+  },
+  "pricing_policies": {
+    "typical_program_cost": "$275+ per 8-week after-school program",
+    "pricing_policy": "All Journey to STEAM programs are a flat rate. We do not prorate for late registration, missed classes, or school closures, including weather-related disruptions.",
+    "payment_note": "This policy allows us to deliver the highest quality experience to every student, every time.",
+    "scholarships": {
+      "available": true,
+      "description": "We offer limited scholarships to help ensure all children can participate in our programs. As a small business, we're committed to serving our community.",
+      "eligibility": "Based on eligibility and program availability",
+      "limitations": "We do not offer full scholarships, and scholarships are honored as they are available. They are not guaranteed for every program.",
+      "contact": "To inquire, please contact us directly by emailing getintouch@journeytosteam.com"
+    },
+    "gift_cards": {
+      "available": true,
+      "description": "Give the gift of STEM! Purchase a gift card for a child to join our programs."
+    }
+  },
+  "faqs": [
+    {
+      "question": "How do I register my child for a program?",
+      "answer": "Registration varies between programs. Mostly, registration will take place directly through our website. Some schools prefer to manage registration through their school or school district. Some community organizations also prefer direct registration through their websites. Details for registration for each of our programs and camps are available on our website and social media.",
+      "category": "Registration"
+    },
+    {
+      "question": "How does Journey to STEAM ensure my child's safety?",
+      "answer": "Your child's safety is at the heart of everything we do. We follow rigorous safety protocols and hire only the most qualified instructors—less than 10% of applicants make it through our selective process. Every instructor passes a comprehensive background check and receives ongoing coaching and support to create a secure, encouraging environment where kids can thrive. Our team is trained not just to teach, but to care deeply and lead with integrity.",
+      "category": "Safety"
+    },
+    {
+      "question": "What age groups do you serve?",
+      "answer": "Our programs are designed for elementary and middle-school students (grades K-8). However, we can adapt our offerings for different age groups based on your organization's requirements.",
+      "category": "General"
+    },
+    {
+      "question": "Where are programs held?",
+      "answer": "Our programs are conveniently hosted at elementary schools across Clackamas, Multnomah, and Washington counties in Oregon, as well as in Clark County, Washington. Our camps are located in elementary and middle schools and community centers.",
+      "category": "Location"
+    },
+    {
+      "question": "How long are the programs?",
+      "answer": "Our programs consist of 8 sessions, meeting once a week. Each session lasts 1 hour. Camp sessions last 3-4 hours and meet for one week.",
+      "category": "Program Format"
+    },
+    {
+      "question": "Do you offer scholarships?",
+      "answer": "Yes! We offer limited scholarships to help ensure all children can participate in our programs. As a small business, we're committed to serving our community, which is why we provide these scholarships based on eligibility and program availability. Please note that we do not offer full scholarships, and scholarships are honored as they are available. They are not guaranteed for every program. To inquire, please contact us directly by emailing: getintouch@journeytosteam.com.",
+      "category": "Financial"
+    },
+    {
+      "question": "What happens if there's inclement weather?",
+      "answer": "We do not reschedule or offer make-up days for inclement weather. This approach keeps our programs running smoothly and ensures our resources are focused on delivering exceptional experiences, not managing unpredictable variables. Families appreciate this clarity, and it helps us keep quality high for everyone.",
+      "category": "Policies"
+    },
+    {
+      "question": "Do you prorate for late registration or missed classes?",
+      "answer": "No. To ensure fairness and program consistency, all Journey to STEAM programs are a flat rate. We do not prorate for late registration, missed classes, or school closures, including weather-related disruptions. This policy allows us to deliver the highest quality experience to every student, every time.",
+      "category": "Policies"
+    },
+    {
+      "question": "What is your EIN for tax purposes?",
+      "answer": "Journey to STEAM's Employee Identification Number, EIN is: 83-2697968. You may need this for your taxes. We do not provide tax advice. Please see a tax consultant for more information.",
+      "category": "Administrative"
+    },
+    {
+      "question": "How often do you add new programs?",
+      "answer": "We update our program offerings weekly, so be sure to check back often on our website and social media platforms for the latest and greatest learning adventures!",
+      "category": "Programs"
+    },
+    {
+      "question": "How can I stay updated on new programs?",
+      "answer": "Stay connected with Journey to STEAM through our website and our social media platforms—Facebook and Instagram. We regularly update our platforms with the latest information and offerings.",
+      "category": "Communication"
+    },
+    {
+      "question": "What is your refund policy?",
+      "answer": "See our Refund Policy at https://www.journeytosteam.com/refund-policy",
+      "category": "Policies"
+    }
+  ],
+  "parent_champion_program": {
+    "name": "Parent Champion Program",
+    "description": "We partner with amazing parents to launch high-quality, hands-on STEAM programs at select schools.",
+    "how_it_works": [
+      "Fill out the form to become a Parent Champion",
+      "Get our step-by-step Toolkit + email templates",
+      "We work with you to pitch your school",
+      "When your school schedules a program and it hits minimum enrollment, you earn rewards and your child gets bragging rights"
+    ],
+    "rewards": [
+      "Your child participates in one full term for FREE (at least a $275 value!)",
+      "STEAM swag for your child's class/teacher",
+      "Your name featured as a Champion in our parent newsletter"
+    ],
+    "ideal_schools": [
+      "Have strong family engagement and enrichment programs",
+      "Have supportive administration or active parent involvement",
+      "Are communities that invest in high-quality after-school opportunities"
+    ],
+    "support_provided": "We provide email templates to help you advocate, and we'll handle the heavy lifting once you make the connection. We can also help schedule a presentation if needed.",
+    "multiple_referrals": "Yes, you can refer more than one school. If you refer multiple schools, you will be entered into a free program drawing."
+  },
+  "for_schools": {
+    "benefits": [
+      {
+        "benefit": "Raise Achievement Levels",
+        "description": "Boost student outcomes with hands-on STEAM learning"
+      },
+      {
+        "benefit": "Enhance Your School's Reputation",
+        "description": "Stand out as an innovative school offering cutting-edge programs"
+      },
+      {
+        "benefit": "Make Equity Real & Visible",
+        "description": "Provide equitable access to enrichment opportunities"
+      }
+    ],
+    "school_pain_points": [
+      "Struggling to retain students who are moving to neighboring districts",
+      "Addressing declining test scores and student engagement",
+      "Adapting to evolving educational standards and technologies",
+      "Maintaining school reputation and community trust",
+      "Ensuring equitable access to enrichment opportunities despite budget constraints"
+    ],
+    "program_highlights": [
+      "Convenient Schedule: Weekly one-hour sessions over eight weeks, tailored to your school's calendar",
+      "On-Campus Ease: No transportation or logistical hurdles. We bring everything directly to your school",
+      "Engaging STEM+Arts: Hands-on exploration powered by LEGO®, stimulating students' creativity and critical thinking",
+      "College & Career Readiness: Curriculum that complements your instructional goals, preparing students for future academic and career success",
+      "Support for Working Families: Structured activities aligned with parent schedules, offering essential support to your community"
+    ],
+    "turnkey_solution": "Transform your school into the one everyone talks about. Boost outcomes, elevate your school's reputation, and attract discerning families, without adding to your workload."
+  },
+  "testimonials": [
+    {
+      "quote": "I never want Robotics Club to end!",
+      "source": "Kindergartener from City View Charter on last session",
+      "type": "Student"
+    },
+    {
+      "quote": "My son loves this program, he always looks forward to it!",
+      "source": "Parent from Bridger Creative Science School",
+      "type": "Parent"
+    },
+    {
+      "quote": "My son is getting ready for his public speaking assignment at school, so I'm really happy to hear that he is sharing his builds with everyone to help him prepare.",
+      "source": "Parent of student at the Spring Hillsboro Game Designers Camp",
+      "type": "Parent"
+    },
+    {
+      "quote": "From my perspective Lego's class has been going very well. I've enjoyed working with Mrs. Bishop. Besides being great to work with, I think the students are enjoying themselves and learning.",
+      "source": "Stacy, Secretary at Art Rutkin",
+      "type": "School Staff"
+    },
+    {
+      "quote": "The kids in my class are loving the program!",
+      "source": "Ann, Teacher at Atfalati Ridge Elementary",
+      "type": "Teacher"
+    },
+    {
+      "quote": "The families who participated in the program on Monday really enjoyed the program. We have heard very positive reviews! We are excited to have you in our school and bringing such a great program to our families.",
+      "source": "PTO President Forest Hills Elementary",
+      "type": "PTO Leader"
+    },
+    {
+      "quote": "All the children seem to be really enjoying the Lego class.",
+      "source": "Nicole, Secretary at Forest Hills Elementary",
+      "type": "School Staff"
+    },
+    {
+      "quote": "We are delighted to have Lego STEM at Forest Park. So far, I feel like everything is going smoothly and I don't have any suggestions for improvement... which is awesome!",
+      "source": "Suzanne, Secretary at Forest Park Elementary",
+      "type": "School Staff"
+    },
+    {
+      "quote": "Things seem to be going great! The kids are really enjoying it, the staff are giving me good reports, and my own observations have been positive. Well done!",
+      "source": "Sherri, Superintendent North Clackamas Christian School",
+      "type": "Administrator"
+    },
+    {
+      "quote": "Thank you! My son had a great time.",
+      "source": "Samantha, Parent from Atkinson Elementary",
+      "type": "Parent"
+    },
+    {
+      "quote": "Thank you for the fun and educational program!",
+      "source": "Amy, Parent from Alameda Elementary",
+      "type": "Parent"
+    },
+    {
+      "quote": "My son always looks forward to Wednesdays. If you offer programs at our school in the future, we will definitely sign up!",
+      "source": "Parent at Prune Hill Elementary",
+      "type": "Parent"
+    },
+    {
+      "quote": "Journey to STEAM met a great need in our school community! The students who participated were excited to have an outlet to continue to tap into the creative aspects of their personalities. Journey to STEAM staff member, Arielle, was great to work with and created a schedule that worked with my school schedule. I continue to look forward to seeing how our students will unlock their creative energies through Journey to STEAM.",
+      "source": "Principal Glory at Sunnyside Elementary",
+      "type": "Principal"
+    },
+    {
+      "quote": "The students are loving it",
+      "source": "Principal Tara at Portland Arthur Academy",
+      "type": "Principal"
+    }
+  ],
+  "instructor_testimonials": [
+    {
+      "quote": "I'm happy to be part of a small business team where my work means something and makes a difference, especially in creating the new curriculum.",
+      "source": "Christie, Instructor and Program Coordinator Assistant",
+      "type": "Staff"
+    },
+    {
+      "quote": "There have been many moments when I have been amazed by the creative designs of my students!",
+      "source": "Isabel, Instructor at Journey to STEAM",
+      "type": "Instructor"
+    },
+    {
+      "quote": "This last class was really fun to teach and see what the kids could come up with",
+      "source": "Kyle, Instructor at Journey to STEAM",
+      "type": "Instructor"
+    },
+    {
+      "quote": "My favorite moments are seeing the kids be proud of themselves for their builds",
+      "source": "Kai, Instructor at Journey to STEAM",
+      "type": "Instructor"
+    },
+    {
+      "quote": "I enjoy seeing students happily tell their parents what they did in class.",
+      "source": "Colton, Instructor at Journey to STEAM",
+      "type": "Instructor"
+    },
+    {
+      "quote": "I love seeing kids become more confident and proud to share their builds over the course of a program.",
+      "source": "Jordan, Instructor at Journey to STEAM",
+      "type": "Instructor"
+    }
+  ],
+  "careers": {
+    "description": "Are you passionate about shaping the future of education and inspiring young minds to explore the wonders of STEAM? Journey to STEAM is on the lookout for dedicated individuals to join our team and contribute to the transformative learning experiences we offer.",
+    "why_join": "At Journey to STEAM, we believe in the power of education to ignite curiosity and unlock the potential of every child. As a member of our team, you'll have the opportunity to make a real impact, fostering creativity, critical thinking, and a love for learning.",
+    "how_to_apply": {
+      "method": "Email application",
+      "email": "getintouch@journeytosteam.com",
+      "subject_line": "Application for [Job Title]",
+      "required_materials": [
+        "Resume",
+        "Cover letter outlining your passion for STEAM education",
+        "Your commitment to making a positive impact on young learners"
+      ]
+    },
+    "hiring_standards": "We hire fewer than 10% of applicants. Every instructor passes a comprehensive background check and receives ongoing coaching and support.",
+    "job_board": "Current job openings available on Indeed and through website"
+  },
+  "key_features": [
+    "Hands-On Learning: Physical, tactile experiences with LEGO and robotics",
+    "Real-World Skills: Practical application of STEAM concepts",
+    "Future-Ready Education: Preparing students for tomorrow's challenges",
+    "LEGO-Based Curriculum: Engaging, age-appropriate learning materials",
+    "Qualified Instructors: Less than 10% acceptance rate, background checked, ongoing training",
+    "Culturally Responsive: Programs designed with equity and inclusion in mind",
+    "Turnkey Solution: No added workload for schools",
+    "Flexible Formats: After-school, camps, and custom partnerships"
+  ],
+  "competitive_advantages": [
+    "Founded by a former K-5 principal with over a decade of educational leadership",
+    "Selective hiring: Only top 10% of applicants accepted",
+    "All instructors receive personal coaching from founder Dr. Arielle Hammond",
+    "Comprehensive background checks for all staff",
+    "Programs created by an educator AND parent",
+    "Focus on both academic rigor AND joy",
+    "LEGO Education certified curriculum",
+    "Proven track record with schools across Portland metro area",
+    "Partnership-focused approach with schools and families"
+  ],
+  "educational_outcomes": [
+    "Develop confidence and self-esteem",
+    "Build creativity and innovative thinking",
+    "Foster critical thinking and problem-solving skills",
+    "Encourage collaboration and teamwork",
+    "Prepare for college and career readiness",
+    "Inspire interest in STEM careers",
+    "Build technical skills (coding, robotics, engineering)",
+    "Develop communication skills through project sharing"
+  ],
+  "parent_pain_points_addressed": [
+    {
+      "pain_point": "Child falling behind in a rapidly changing world",
+      "solution": "Future-ready STEAM education with cutting-edge technology"
+    },
+    {
+      "pain_point": "Outdated learning methods and endless worksheets",
+      "solution": "Hands-on, engaging LEGO-based learning experiences"
+    },
+    {
+      "pain_point": "Missing out on STEAM education",
+      "solution": "Comprehensive programs covering all STEAM disciplines"
+    },
+    {
+      "pain_point": "Need for after-school care and enrichment",
+      "solution": "Convenient on-campus programs aligned with school schedules"
+    },
+    {
+      "pain_point": "Concern about child's future career prospects",
+      "solution": "Career-connected pathways (Future Engineer, Future Game Developer, etc.)"
+    }
+  ],
+  "common_objections_and_responses": [
+    {
+      "objection": "Is this just playing with LEGOs?",
+      "response": "No! While we use LEGO as an engaging tool, our programs teach rigorous academic content including coding, robotics, engineering principles, and problem-solving. LEGO is the vehicle for deep learning, not just play."
+    },
+    {
+      "objection": "My child isn't into STEM/tech",
+      "response": "Our programs integrate Arts (the A in STEAM) and focus on creativity, design, and storytelling alongside technical skills. We've seen many students who thought they 'weren't into tech' discover new passions through our hands-on, creative approach."
+    },
+    {
+      "objection": "Is this too advanced for my kindergartener/too basic for my 8th grader?",
+      "response": "We offer age-appropriate pathways for grades K-8. Programs scale in complexity, from Intro to Scratch Jr for younger learners to advanced robotics challenges for older students. We can also adapt offerings based on specific needs."
+    },
+    {
+      "objection": "This seems expensive",
+      "response": "At $275+ for an 8-week program (about $34/session), you're getting instruction from highly qualified educators (top 10% of applicants), LEGO Education materials, a rigorous curriculum designed by a former principal, and college/career-ready skills. We also offer limited scholarships for families who need financial assistance."
+    },
+    {
+      "objection": "What if my child misses a session?",
+      "response": "We maintain a flat-rate policy to ensure program consistency and quality for all students. We do not prorate for missed sessions, which allows us to deliver the highest quality experience every time. This policy is clearly communicated upfront."
+    },
+    {
+      "objection": "Can my child just attend a few sessions?",
+      "response": "Our programs are designed as complete 8-week learning journeys where skills build progressively. Students get the most value from attending the full program, which is why we don't offer partial enrollment."
+    }
+  ],
+  "escalation_triggers": [
+    "Parent wants to enroll immediately (connect to registration process)",
+    "Questions about special needs accommodations (connect to Dr. Arielle or team)",
+    "Complaints or refund requests (escalate to management)",
+    "Complex scheduling conflicts (connect to program coordinator)",
+    "School partnership inquiries (connect to business development)",
+    "Questions requiring medical advice (redirect to pediatrician)",
+    "Requests outside knowledge base (offer to connect with team member)"
+  ],
+  "chatbot_guardrails": [
+    "NEVER confirm enrollment or take payment information - always direct to registration page or team",
+    "NEVER provide medical advice - redirect to 'Please consult your pediatrician'",
+    "NEVER share other customers' information",
+    "If asked about topics outside knowledge base, offer to connect with a team member",
+    "Always maintain warm, friendly, professional tone (helpful school administrator)",
+    "Keep responses concise (2-3 sentences max unless explaining programs)",
+    "Naturally capture lead information (name, email, phone) during conversation",
+    "When escalation is needed, use phrase: 'Let me connect you with our team who can help with that specifically'"
+  ],
+  "call_to_actions": [
+    "Register for a program on our website",
+    "Contact us at getintouch@journeytosteam.com",
+    "Call us at (503) 506-3287",
+    "Follow us on Facebook and Instagram for updates",
+    "Check our website weekly for new program offerings",
+    "Become a Parent Champion and bring Journey to STEAM to your school",
+    "Schedule a call to explore school partnerships",
+    "Apply for a scholarship if financial assistance is needed",
+    "Visit our careers page to join our team"
+  ],
+  "quick_facts": [
+    "Founded in 2023 by Dr. Arielle Hammond, former K-5 principal",
+    "Serves students ages 5-12 (grades K-8)",
+    "Operates in Portland Metro area (Oregon and Washington)",
+    "Uses LEGO Education materials and curriculum",
+    "8-week after-school programs, 1 hour per session",
+    "Week-long camps, 3-4 hours per session",
+    "Less than 10% instructor acceptance rate",
+    "All instructors background checked and trained",
+    "Programs cost $275+ per 8-week session",
+    "Limited scholarships available",
+    "No prorating for missed classes or weather",
+    "Programs updated weekly - check website often",
+    "EIN: 83-2697968 (for tax purposes)"
+  ],
+  "keywords_for_search": [
+    "STEAM education",
+    "STEM programs",
+    "robotics classes",
+    "coding for kids",
+    "LEGO education",
+    "after school programs",
+    "enrichment programs",
+    "Portland Oregon",
+    "children's education",
+    "hands-on learning",
+    "K-8 programs",
+    "elementary school enrichment",
+    "Scratch programming",
+    "LEGO robotics",
+    "engineering for kids",
+    "summer camps",
+    "school partnerships",
+    "Clackamas County",
+    "Multnomah County",
+    "Washington County",
+    "Clark County Washington"
+  ]
+}
