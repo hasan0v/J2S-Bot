@@ -1,6 +1,6 @@
 import { h, render } from 'preact';
 import { useState, useEffect, useRef, useCallback } from 'preact/hooks';
-import './styles/widget.css';
+import widgetCSS from './styles/widget.css?inline';
 
 // ─── API Service ──────────────────────────────────────────
 const API_URL = (() => {
@@ -89,13 +89,43 @@ const SendIcon = () => (
   </svg>
 );
 
+const RocketIcon = ({ size = 20, color = 'currentColor' }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill={color} xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 2C12 2 7 4 7 12c0 2.4.7 4.5 1.6 6.2L6 22l3.8-2.6c.7.4 1.5.6 2.2.6s1.5-.2 2.2-.6L18 22l-2.6-3.8C16.3 16.5 17 14.4 17 12c0-8-5-10-5-10zm0 14c-1.7 0-3-1.3-3-3s1.3-3 3-3 3 1.3 3 3-1.3 3-3 3z"/>
+  </svg>
+);
+
+const ProgramsIcon = () => (
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zm0 14.27L3.55 13 3 13.18V17l9 5 9-5v-3.82l-.55-.18L12 17.27z"/>
+  </svg>
+);
+
+const PricingIcon = () => (
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/>
+  </svg>
+);
+
+const CalendarIcon = () => (
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM9 10H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2z"/>
+  </svg>
+);
+
+const PartyIcon = () => (
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 6c1.11 0 2-.9 2-2 0-.38-.1-.73-.29-1.03L12 0l-1.71 2.97c-.19.3-.29.65-.29 1.03 0 1.1.9 2 2 2zm4.6 9.99l-1.07-1.07-1.08 1.07c-1.3 1.3-3.58 1.31-4.89 0l-1.07-1.07-1.09 1.07C6.75 16.64 5.88 17 4.96 17c-.73 0-1.4-.23-1.96-.61V21c0 .55.45 1 1 1h16c.55 0 1-.45 1-1v-4.61c-.56.38-1.23.61-1.96.61-.92 0-1.79-.36-2.44-1.01zM18 9h-5V7h-2v2H6c-1.66 0-3 1.34-3 3v1.54c0 1.08.88 1.96 1.96 1.96.52 0 1.02-.2 1.38-.57l2.14-2.13 2.13 2.13c.74.74 2.03.74 2.77 0l2.14-2.13 2.13 2.13c.37.37.86.57 1.38.57 1.08 0 1.96-.88 1.96-1.96V12c.01-1.66-1.33-3-2.99-3z"/>
+  </svg>
+);
+
 // ─── Message Component ───────────────────────────────────
 function Message({ role, content, timestamp }) {
   const isUser = role === 'user';
   return (
     <div class={`j2s-message j2s-message-${isUser ? 'user' : 'bot'}`}>
       {!isUser && (
-        <div class="j2s-msg-avatar" aria-hidden="true">🚀</div>
+        <div class="j2s-msg-avatar" aria-hidden="true"><RocketIcon size={16} color="white" /></div>
       )}
       <div>
         <div
@@ -112,7 +142,7 @@ function Message({ role, content, timestamp }) {
 function TypingIndicator() {
   return (
     <div class="j2s-message j2s-message-bot">
-      <div class="j2s-msg-avatar" aria-hidden="true">🚀</div>
+      <div class="j2s-msg-avatar" aria-hidden="true"><RocketIcon size={16} color="white" /></div>
       <div class="j2s-bubble">
         <div class="j2s-typing" role="status" aria-label="Assistant is typing">
           <div class="j2s-typing-dot" />
@@ -127,26 +157,26 @@ function TypingIndicator() {
 // ─── Welcome Screen ──────────────────────────────────────
 function WelcomeScreen({ onQuickAction }) {
   const quickActions = [
-    '� What programs do you offer?',
-    '💰 Tell me about pricing',
-    '📅 What are your hours?',
-    '🎂 Birthday party information',
+    { icon: ProgramsIcon, label: 'What programs do you offer?' },
+    { icon: PricingIcon, label: 'Tell me about pricing' },
+    { icon: CalendarIcon, label: 'What are your hours?' },
+    { icon: PartyIcon, label: 'Birthday party information' },
   ];
 
   return (
     <div class="j2s-welcome">
-      <div class="j2s-welcome-emoji">🚀</div>
+      <div class="j2s-welcome-emoji"><RocketIcon size={44} color="var(--j2s-primary)" /></div>
       <h3>Welcome to Journey to STEAM!</h3>
       <p>Hi there! I can help with info about our STEAM enrichment programs, camps, birthday parties, and more.</p>
       <div class="j2s-quick-actions">
         {quickActions.map((q) => (
           <button
-            key={q}
+            key={q.label}
             class="j2s-quick-btn"
-            onClick={() => onQuickAction(q.replace(/^[^\s]+\s/, ''))}
-            aria-label={q}
+            onClick={() => onQuickAction(q.label)}
+            aria-label={q.label}
           >
-            {q}
+            <q.icon /> {q.label}
           </button>
         ))}
       </div>
@@ -296,7 +326,7 @@ function ChatWidget() {
         >
           {/* Header */}
           <div class="j2s-chat-header">
-            <div class="j2s-header-avatar" aria-hidden="true">🚀</div>
+            <div class="j2s-header-avatar" aria-hidden="true"><RocketIcon size={22} color="white" /></div>
             <div class="j2s-header-info">
               <h2 class="j2s-header-title">Journey to STEAM</h2>
               <p class="j2s-header-subtitle">Ask us anything about our programs!</p>
@@ -374,6 +404,14 @@ function ChatWidget() {
 
 // ─── Mount Widget ─────────────────────────────────────────
 function mountWidget() {
+  // Inject widget CSS into the page
+  if (!document.getElementById('j2s-chat-widget-styles')) {
+    const style = document.createElement('style');
+    style.id = 'j2s-chat-widget-styles';
+    style.textContent = widgetCSS;
+    document.head.appendChild(style);
+  }
+
   // Create mount container
   let container = document.getElementById('j2s-chat-widget-mount');
   if (!container) {
