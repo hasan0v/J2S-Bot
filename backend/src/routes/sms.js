@@ -2,6 +2,7 @@ const express = require('express');
 const twilio = require('twilio');
 const { processMessage } = require('../services/claude');
 const { extractLeadInfo } = require('../services/guardrails');
+const { authenticateToken } = require('../middleware/auth');
 const {
   findOrCreateConversation,
   saveMessage,
@@ -139,8 +140,9 @@ router.post('/webhook', async (req, res) => {
  * POST /api/sms/send
  * Send an outbound SMS message (from admin dashboard)
  * Body: { to: string, message: string }
+ * Requires: JWT authentication (admin only)
  */
-router.post('/send', async (req, res) => {
+router.post('/send', authenticateToken, async (req, res) => {
   try {
     const { to, message } = req.body;
 
