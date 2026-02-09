@@ -194,7 +194,7 @@ J2S-Bot/
 Paste this in Squarespace → Settings → Advanced → Code Injection → Footer:
 
 ```html
-<script src="https://your-widget-domain.com/chat-widget.js" data-api-url="https://your-api-domain.com"></script>
+<script src="https://widget-j2s.vercel.app/chat-widget.js" data-api-url="https://j2s-bot-production.up.railway.app"></script>
 ```
 
 ---

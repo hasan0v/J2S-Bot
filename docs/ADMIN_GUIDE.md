@@ -1,6 +1,6 @@
 # Admin Dashboard Guide
 
-The admin dashboard at `https://your-admin-domain.com` provides a central interface for managing conversations, leads, knowledge base content, and system settings.
+The admin dashboard at `https://frontend-ecru-three-90.vercel.app` provides a central interface for managing conversations, leads, knowledge base content, and system settings.
 
 ---
 

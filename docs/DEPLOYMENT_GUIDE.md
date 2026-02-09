@@ -51,7 +51,7 @@ Set these in Railway's Variables tab:
 | `ANTHROPIC_API_KEY` | `sk-ant-api...` |
 | `JWT_SECRET` | Generate: `openssl rand -hex 64` |
 | `JWT_REFRESH_SECRET` | Generate: `openssl rand -hex 64` |
-| `CORS_ORIGIN` | `https://your-admin.vercel.app,https://www.journeytosteam.com,https://journeytosteam.com` |
+| `CORS_ORIGIN` | `https://frontend-ecru-three-90.vercel.app,https://www.journeytosteam.com,https://journeytosteam.com` |
 | `TWILIO_ACCOUNT_SID` | Your Twilio SID |
 | `TWILIO_AUTH_TOKEN` | Your Twilio token |
 | `TWILIO_PHONE_NUMBER` | `+1XXXXXXXXXX` |
@@ -109,7 +109,7 @@ This ensures client-side routing works for all dashboard pages.
 
 ### Verify
 
-Visit `https://your-admin.vercel.app` — you should see the login page. Log in with:
+Visit `https://frontend-ecru-three-90.vercel.app` — you should see the login page. Log in with:
 - Email: `admin@journeytosteam.com`
 - Password: `J2SAdmin2026!`
 
@@ -147,7 +147,7 @@ Upload `dist/chat-widget.js` to any CDN (Cloudflare R2, AWS S3 + CloudFront, etc
 2. In the **Footer** section, paste:
 
 ```html
-<script src="https://your-widget-url.com/chat-widget.js" data-api-url="https://j2s-bot-production.up.railway.app"></script>
+<script src="https://widget-j2s.vercel.app/chat-widget.js" data-api-url="https://j2s-bot-production.up.railway.app"></script>
 ```
 
 The widget will automatically:
